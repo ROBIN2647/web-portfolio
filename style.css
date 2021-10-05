@@ -1,5 +1,5 @@
 body{
-
+    margin: 0;
     font-family: 'Ephesis', cursive;
 }
 h1{
@@ -22,4 +22,22 @@ font-size: 50px;
 .half-width img{
 
     width: 100%;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg,rgb(92, 92, 190), blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+
 }
